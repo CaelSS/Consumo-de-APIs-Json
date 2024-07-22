@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Preços de Itens RPG</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .input-field {
+            margin-bottom: 20px;
+        }
+        .input-field input {
+            padding: 10px;
+            font-size: 16px;
+            width: 80%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .results {
+            margin-top: 20px;
+        }
+        .items-list {
+            margin-top: 10px;
+            list-style-type: none;
+            padding: 0;
+        }
+        .items-list li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Consulta de Preços de Itens RPG</h1>
+        <div class="input-field">
+            <input type="text" id="itemInput" placeholder="Digite o nome do item">
+        </div>
+        <div class="results" id="results"></div>
+        <h2>Itens Disponíveis para Pesquisa:</h2>
+        <ul class="items-list">
+            <li>Espada Longa</li>
+            <li>Escudo de Ferro</li>
+            <li>Poção de Vida</li>
+            <li>Elmo de Couro</li>
+            <li>Bota Rápida</li>
+            <li>Anel de Mana</li>
+            <li>Arco Curto</li>
+            <li>Flecha de Fogo</li>
+            <li>Poção de Força</li>
+            <li>Cajado Mágico</li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

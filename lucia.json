@@ -1,0 +1,16 @@
+{
+    "npc_name": "Lúcia, a Alquimista",
+    "location": "Floresta Encantada",
+    "items_for_sale": [
+        {"item_id": 1, "item_name": "Espada Longa", "item_price": 120},
+        {"item_id": 2, "item_name": "Escudo de Ferro", "item_price": 80},
+        {"item_id": 3, "item_name": "Poção de Vida", "item_price": 25},
+        {"item_id": 4, "item_name": "Elmo de Couro", "item_price": 60},
+        {"item_id": 5, "item_name": "Bota Rápida", "item_price": 140},
+        {"item_id": 6, "item_name": "Anel de Mana", "item_price": 170},
+        {"item_id": 7, "item_name": "Arco Curto", "item_price": 95},
+        {"item_id": 8, "item_name": "Flecha de Fogo", "item_price": 7},
+        {"item_id": 9, "item_name": "Poção de Força", "item_price": 35},
+        {"item_id": 10, "item_name": "Cajado Mágico", "item_price": 220}
+    ]
+}
